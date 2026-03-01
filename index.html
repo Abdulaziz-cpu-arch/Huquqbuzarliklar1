@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huquqbuzarliklar | Abdulaziz 8-sinf</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:linear-gradient(135deg,#0f172a,#1e3a8a);color:white;transition:0.4s;}
+.dark{background:linear-gradient(135deg,#111827,#000);}
+header{text-align:center;padding:40px 20px;background:rgba(0,0,0,0.4);}
+header h1{font-size:34px;margin-bottom:10px;letter-spacing:2px;}
+header p{opacity:0.9;margin:5px 0;}
+.container{width:90%;max-width:1200px;margin:30px auto;}
+.section{background:white;color:#222;margin-bottom:20px;padding:25px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.3);cursor:pointer;transition:0.4s;animation:fadeIn 0.8s ease;}
+.section:hover{transform:scale(1.02);}
+.dark .section{background:#1f2937;color:white;}
+.section h2{color:#1e3a8a;margin-bottom:15px;}
+.dark .section h2{color:#60a5fa;}
+.content{display:none;line-height:1.8;margin-top:15px;font-size:15px;}
+img{width:100%;max-width:650px;margin-top:15px;border-radius:10px;}
+button{padding:10px 15px;border:none;border-radius:6px;cursor:pointer;font-weight:bold;margin-top:10px;}
+.mode{background:#facc15;color:black;}
+footer{text-align:center;padding:20px;background:rgba(0,0,0,0.4);margin-top:40px;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:768px){header h1{font-size:22px;}.section{padding:15px;}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>HUQUQBUZARLIKLAR</h1>
+<p>Huquq fanidan kengaytirilgan loyiha ishi</p>
+<p><b>Bajardi:</b> Abdulaziz | <b>Sinf:</b> 8-sinf</p>
+<button class="mode" onclick="toggleMode()">🌙 Rejimni o‘zgartirish</button>
+</header>
+
+<div class="container">
+
+<!-- Bo‘limlar 1-20+ -->
+<div class="section" onclick="toggle(this)"><h2>Kirish</h2><div class="content">Huquqbuzarlik tushunchasi...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Huquqbuzarlik belgilari</h2><div class="content">Qonunga xiloflik, ayb, xavflilik, jazolanish...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Huquqbuzarlik tarkibi</h2><div class="content">Obyekt, obyektiv tomon, subyekt, subyektiv tomon...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Jinoyat huquqbuzarlik</h2><div class="content">Jinoyat kodeksi asosida sodir etiladigan...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Ma’muriy huquqbuzarlik</h2><div class="content">Jamiyat tartibini buzuvchi qoidabuzarlik...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Fuqarolik huquqbuzarligi</h2><div class="content">Mulkiy va fuqarolik huquqiga zid xatti-harakat...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Intizomiy huquqbuzarlik</h2><div class="content">Mehnat va xizmat intizomiga zid harakatlar...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Konstitutsiya moddalari</h2><div class="content">24, 44, 53-modda misollari...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Javobgarlik turlari</h2><div class="content">Jinoyat, ma’muriy, fuqarolik, intizomiy...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Oldini olish choralar</h2><div class="content">Huquqiy tarbiya, profilaktika, nazorat...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Huquqbuzarlik statistikasi</h2><div class="content">O‘zbekiston va jahon miqyosidagi misollar...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Jinoyatlarning oldini olish</h2><div class="content">Xavfsizlik, tarbiya va nazorat choralar...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Ma’muriy javobgarlikning ahamiyati</h2><div class="content">Ijtimoiy tartibni saqlash va ogohlantirish...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Fuqarolik javobgarligi</h2><div class="content">Mulkiy zararlarni qoplash va qonuniy tartib...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Intizomiy javobgarlik</h2><div class="content">Mehnat va xizmat tartibini ta’minlash...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Sud va huquq tizimi</h2><div class="content">Sud organlari va jinoyatlarni ko‘rib chiqish...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Qonunlar va normativlar</h2><div class="content">Jinoyat kodeksi, ma’muriy kodeks, boshqa qonunlar...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Huquqbuzarlik va jamiyat</h2><div class="content">Jamiyatdagi tartibsizlik, xavf va oqibatlar...</div></div>
+<div class="section" onclick="toggle(this)"><h2>O‘zbekistonda profilaktika</h2><div class="content">Huquqbuzarliklarni kamaytirish choralari...</div></div>
+<div class="section" onclick="toggle(this)"><h2>Xulosa</h2><div class="content">Har bir fuqaro qonunlarga rioya qilishi va huquqiy madaniyatni oshirishi zarur.</div></div>
+
+</div>
+
+<footer>© 2026 | Abdulaziz | 8-sinf | Huquq fanidan loyiha</footer>
+
+<script>
+function toggle(section){
+let content=section.querySelector(".content");
+content.style.display=content.style.display==="block"?"none":"block";
+}
+function toggleMode(){
+document.body.classList.toggle("dark");
+}
+</script>
+</body>
+</html>
